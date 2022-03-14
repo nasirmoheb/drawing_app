@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drawing app</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="Script.js"></script>  
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>
+</head>
+<body >
+    <div id="header">Drawing App</div>
+
+    <div class="inputContainer">
+      <div class="input" id="inputColor">
+        <input type="color" list id="paintColor">
+      </div>
+      <div class="input" id="thicknessInput">
+         <div id="circle"></div>
+      </div>
+      <div class="input" >
+           <div id="slider"></div>
+     </div> 
+    </div>
+
+    <div id="container">
+      <canvas id="paint" width="500px" height="420px"> </canvas>
+    </div>
+    <div class="buttons">
+      <div class="button">
+      <div class="btn-group">
+            <button class="btn btn-primary" id="erase">Erase</button>
+            <button class="btn btn-primary" id="save">Sava</button>
+            <button class="btn btn-primary" id="reset">Reset</button>
+      </div>
+      </div>
+    </div>
+    
+</body>
+</html>

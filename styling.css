@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  background: url(images/paintbg.jpg)center center fixed;
+  background-size: cover;
+}
+#header{
+  height: 50px;
+  width: 40vw;
+  margin: 0 auto;
+ background: linear-gradient(rgb(255, 255, 255),rgb(108, 108, 216));
+ border-radius: 0 0 50px 50px;
+ font-size:25px;
+ color: rgb(109, 44, 44);
+
+}
+.inputContainer{
+  width:300px ;
+  margin: 10px auto 0 auto;
+}
+.input{
+  height: 40px;
+  font-size: 1.4em;
+}
+#circle{
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#thicknessInput{
+  position: relative;
+}
+
+#container{
+  height: 422px;
+  width: 502px ;
+  border: 1px solid rgb(175, 129, 218);
+  margin: 0 auto;
+}
+#paint{
+  background-color: white;
+  cursor: crosshair;
+}
+.button{
+  margin-top: 6px;
+}
+#inputColor{
+ height: 30px;
+}
+.eraseMode{
+  background-color: rgb(181, 184, 231);
+  border: rgb(16, 26, 180); ;
+  box-shadow: cyan;
+}
